@@ -41,15 +41,12 @@ body {
   color: var(--text-color);
 }
 
-/* Glassmorphism Header */
+/* Header (Clean flow without fixed/sticky overlap) */
 header {
   background-color: var(--card-bg);
   padding: 1.5rem 1rem;
   border-bottom: 1px solid var(--border-color);
   text-align: center;
-  position: sticky;
-  top: 0;
-  z-index: 100;
   box-shadow: 0 2px 8px rgba(0,0,0,0.05);
 }
 
